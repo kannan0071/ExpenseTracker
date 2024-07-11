@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account? Sign up here</string>
+    <string name="registeracc">Register your Account</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="expense_tracker">Expense Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashBoard">DashBoard</string>
+    <string name="expense1">Expense</string>
+    <string name="income1">Income</string>
+    <string name="income2">Income</string>
+    <string name="expense2">Expense</string>
+    <string name="_000_00">000.00</string>
+    <string name="_000_00_">000.00</string>
+    <string name="amount">AMOUNT:</string>
+    <string name="type">TYPE:</string>
+    <string name="note">NOTE:</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="_15_nov_2023">15 Nov 2023</string>
+    <string name="income_type">Type</string>
+    <string name="income_note">Note</string>
+    <string name="expense_type">Type</string>
+    <string name="expense_note">Note</string>
+    <string name="_5000">5000</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="income3">Income:</string>
+    <string name="expense3">Expense:</string>
+    <string name="type2">Type:</string>
+    <string name="amount1">Amount:</string>
+    <string name="_16_nov_2023">16 Nov 2023</string>
+    <string name="log_out">Log out</string>
+    <string name="empty"> </string>
+    <string name="amount2">Amount</string>
+    <string name="category">Category</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="reset_your_password">Reset your Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="Note">Note:</string>
+
+</resources>

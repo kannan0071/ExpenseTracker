@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="15dp"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        tools:ignore="DisableBaselineAlignment">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="TextSizeCheck">
+
+            <TextView
+                android:id="@+id/date_txt_expense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="@string/_15_nov_2023"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="@string/income_type"
+                android:id="@+id/type_txt_expense"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="@string/income_note"
+                android:id="@+id/note_txt_expense"
+                android:gravity="center"
+                android:maxLines="1"
+                android:layout_below="@+id/type_txt_expense"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_5000"
+                android:textSize="16sp"
+                android:id="@+id/amount_txt_expense"
+                android:gravity="center"
+                android:textColor="#F32C48"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
